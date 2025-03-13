@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias e Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1>Notícias e Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Artigos -->
+    <section class="articles">
+        <!-- Artigo 1 -->
+        <article class="article">
+            <h2>Notícia 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra enim sed velit gravida, in suscipit sapien facilisis.</p>
+            <a href="#" class="read-more">Leia mais</a>
+
+            <!-- Formulário de Comentários -->
+            <div class="comments-section">
+                <h3>Deixe seu comentário:</h3>
+                <form id="comment-form-1">
+                    <textarea id="comment-text-1" placeholder="Digite seu comentário..." required></textarea>
+                    <button type="submit">Enviar Comentário</button>
+                </form>
+                <div id="comments-list-1" class="comments-list"></div>
+            </div>
+        </article>
+
+        <!-- Artigo 2 -->
+        <article class="article">
+            <h2>Notícia 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra enim sed velit gravida, in suscipit sapien facilisis.</p>
+            <a href="#" class="read-more">Leia mais</a>
+
+            <!-- Formulário de Comentários -->
+            <div class="comments-section">
+                <h3>Deixe seu comentário:</h3>
+                <form id="comment-form-2">
+                    <textarea id="comment-text-2" placeholder="Digite seu comentário..." required></textarea>
+                    <button type="submit">Enviar Comentário</button>
+                </form>
+                <div id="comments-list-2" class="comments-list"></div>
+            </div>
+        </article>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2025 Meu Site de Notícias</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
